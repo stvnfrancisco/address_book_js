@@ -34,7 +34,7 @@ $(document).ready(function() {
     });
 
 
-    $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + "</span></li>");
+    $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + " " + newContact.lastName + "</span></li>");
 
     $(".contact").last().click(function() {
       $("#show-contact").show();
