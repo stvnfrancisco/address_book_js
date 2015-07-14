@@ -16,7 +16,7 @@ function Address(street, city, state) {
 }
 
 Address.prototype.fullAddress = function() {
-  return this.street + ", " + this.city + ", " + this.state;
+  return this.street + " " + this.city + ", " + this.state;
 }
 
 function resetFields(){
